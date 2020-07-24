@@ -64,23 +64,25 @@ permissions on your SuiteCRM instance, visit our support forums.
 === Recommended installation pre-requisites
 
 * PHP
-* JSON
-* XML Parsing
-* MB Strings Module
-* Writable SugarCRM Configuration File (config.php)
-* Writeable Custom Directory
-* Writable Modules Sub-Directories and Files
-* Writable Upload Directory
-* Writable Data Sub-Directories
-* Writable Cache Sub-Directories
-* PHP Memory Limit (at least 128M)
-* ZLIB Compression Module
-* ZIP Handling Module
-* PCRE Library
-* IMAP Module
-* cURL Module
-* Upload File Size
-* Sprite Support
+** Modules
+*** JSON
+*** XML Parsing
+*** MB Strings
+*** ZLIB Compression
+*** ZIP Handling
+*** PCRE Library
+*** IMAP
+*** cURL
+** Config
+*** Memory Limit (at least 128M)
+*** Upload Files and File Size (at least 32M)
+* Writable files and sub-directories
+** SugarCRM Configuration File (config.php)
+** Cache sub-directory
+** Custom sub-directory
+** Modules sub-directory and Files
+** Data sub-directories
+** Upload sub-directory
 
 === Installing SuiteCRM
 
